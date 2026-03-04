@@ -1,0 +1,14 @@
+.site-header .container {
+
+    size-adjust: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header {
+    padding: 1rem 0;
+    background-color: rgb(183, 183, 19);
+
+}
