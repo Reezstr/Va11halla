@@ -1,14 +1,61 @@
-.site-header .container {
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; 
+}
 
-    size-adjust: inherit;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+ul {
+  gap: 50px; /* Espacio uniforme entre elementos */
+}
+
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 26px;
+}
+
+.site-header .container {
+    width: 500px;
+    height: 20px;
+    
 }
 
 .site-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     padding: 1rem 0;
-    background-color: rgb(183, 183, 19);
+    background-color: #1f1a2d;
+    border-bottom: 1px solid rgb(89, 89, 89);
+}
+
+.logo {
+    width: 400px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#fondo {
+background-image: linear-gradient(rgba(8, 5, 26, 0.241), rgba(58, 16, 69, 0.5)), url("https://styles.redditmedia.com/t5_3awig/styles/backgroundImage_n4zzhoeyybz31.png"); 
+background-size: cover;
+background-position: center;
+color: aliceblue;
+padding: 300px 0;
+text-align: center;
+}
+
+#fondo h1 {
+font-size: 50px;
 
 }
