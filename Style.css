@@ -95,3 +95,17 @@ padding: 200px 0;
 text-align: center;
 }
 
+  .contenedor {
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; 
+    display: flex;
+    gap: 250px;
+    padding: 60px;
+  }
+
+  .rectangulo2 {
+    width: 600px;
+    height: 400px;
+    background-color: #09030f;
+    border-radius: 5px;
+  }
