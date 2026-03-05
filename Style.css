@@ -50,12 +50,38 @@ a {
 background-image: linear-gradient(rgba(8, 5, 26, 0.241), rgba(58, 16, 69, 0.5)), url("https://styles.redditmedia.com/t5_3awig/styles/backgroundImage_n4zzhoeyybz31.png"); 
 background-size: cover;
 background-position: center;
-color: aliceblue;
-padding: 300px 0;
+color: rgb(255, 255, 255);
+padding: 200px 0;
 text-align: center;
 }
 
 #fondo h1 {
-font-size: 50px;
 
+text-align:  center;
+font-size: 60px;
+
+}
+
+  .contenedor1 {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    height: 100vh;           /* Altura total de la pantalla */
+  }
+
+.rectangulo1 {
+    width: 1100px; /* Ancho del rectángulo */
+    height: 500px; /* Alto del rectángulo */
+    background-color: #09030f; /* Color de fondo */
+    border: 2px solid rgb(89, 89, 89); /* Borde opcional */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+}
+
+.titulo {
+
+    color: rgb(255, 0, 0);
+    text-align: center;
 }
