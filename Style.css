@@ -152,3 +152,21 @@ text-align: center;
   background-color: #c7ef62; 
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+
+.boton2 {
+    
+    font-size: 46px;
+    background-color: #ff1b64;
+    border: #9225ff;
+}
+
+.boton2:hover {
+  background-color: #4a163a; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.FINAL {
+  font-family: "Alegreya Sans SC", sans-serif;
+
+
+}
