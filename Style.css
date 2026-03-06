@@ -78,6 +78,7 @@ font-size: 60px;
     color: rgb(255, 255, 255);
     text-align: center;
     align-content: center;
+    padding: 20px;
 }
 
 .titulo {
@@ -96,16 +97,46 @@ text-align: center;
 }
 
   .contenedor {
-    justify-content: center; /* Centrado horizontal */
+    justify-content: center; 
     align-items: center; 
     display: flex;
-    gap: 250px;
+    gap: 200px;
     padding: 60px;
   }
 
   .rectangulo2 {
     width: 600px;
-    height: 400px;
+    height: 600px;
     background-color: #09030f;
     border-radius: 5px;
+    padding: 10px;
   }
+  .nombre {
+
+    color: #ff1b64;
+    text-align: center;
+    font-size: 26px;
+}
+
+#fondo3 {
+background-image: linear-gradient(#222337d3), url("Callejon.webp"); 
+background-size: cover;
+background-position: center;
+color: rgb(255, 255, 255);
+padding: 20px 0;
+text-align: center;
+}
+
+
+ .contenedor2 {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 60px;
+  }
+
+.logoTienda {
+    width: 300px;
+    height: 200px;
+
+}
