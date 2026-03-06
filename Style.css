@@ -140,3 +140,15 @@ text-align: center;
     height: 200px;
 
 }
+
+.boton {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 26px;
+    background-color: 76d969;
+    border: #09030f;
+}
+
+.boton:hove {
+  background-color: #c7ef62; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
