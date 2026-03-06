@@ -97,7 +97,7 @@ text-align: center;
 }
 
   .contenedor {
-    justify-content: center; 
+    
     align-items: center; 
     display: flex;
     gap: 200px;
@@ -129,10 +129,12 @@ text-align: center;
 
 
  .contenedor2 {
+    justify-content: center; 
     display: flex;
     align-items: center;
     gap: 200px;
     padding: 60px;
+    
   }
 
 .logoTienda {
